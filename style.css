@@ -1,0 +1,184 @@
+/* * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+} */
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+.content {
+  width: 100%;
+  height: 100%;
+}
+
+ul {
+  width: 100%;
+  height: 5vh;
+  padding: 0px;
+  margin: 0px;
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+  justify-content: space-between;
+}
+
+li {
+  display: flex;
+}
+
+.list1 {
+  color: #ff33f3;
+}
+.emertxe {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.img1 img {
+  max-width: 100%;
+  height: 600px;
+}
+
+.img2 {
+  padding: 20px;
+  text-align: center;
+}
+
+.para1 {
+  font-size: 30px;
+}
+
+.btn1 {
+  background-color: #ff33f3;
+  border-radius: 20px;
+  background-image: linear-gradient(to right, rgb(9, 2, 19), #ff33f3);
+  padding: 10px 20px;
+  font-size: 16px;
+  color: white;
+  border: none;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.INDUSTRYNEWS {
+  text-align: center;
+}
+
+.evolution {
+  display: flex;
+  max-width: 100%;
+}
+
+.newspara1 {
+  background-color: rgb(199, 199, 184);
+  padding-left: 20px;
+  padding-right: 10px;
+}
+
+.img3 {
+  float: left;
+}
+
+.btn2 {
+  background-color: magenta;
+  align-items: center;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.chip {
+  display: flex;
+  max-width: 100%;
+  margin-top: 10px;
+}
+
+.chippara1 {
+  background-color: rgb(199, 199, 184);
+  padding-left: 10px;
+  padding-right: 50px;
+}
+
+.chipimg {
+  float: right;
+}
+
+@media only screen and(max-width: 1200px) {
+  .chip {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .chippara1 {
+    max-width: 80%;
+  }
+
+  .chipimg {
+    max-width: 80%;
+  }
+}
+
+hr.solid {
+  border-top: 3px solid grey;
+}
+
+.blogpara {
+  background-color: rgb(199, 199, 184);
+  display: flex;
+  padding: 20px;
+  justify-content: space-between;
+}
+
+.blogpara div {
+  max-width: 50%;
+}
+
+.allimg {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.allimg div {
+  display: flex;
+  justify-content: space-around;
+  gap: 20px;
+  width: 100%;
+}
+
+.allimg img {
+  max-width: 20%;
+  height: auto;
+}
+
+.register {
+  background-color: #ff33f3;
+  font-size: 25px;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.button {
+  border-radius: 20px;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  color: grey;
+  font-size: 16px;
+}
+
+.footer-left {
+  text-align: left;
+}
+
+.footer-right {
+  text-align: right;
+}
